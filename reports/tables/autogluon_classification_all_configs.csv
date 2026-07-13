@@ -1,0 +1,4 @@
+﻿experiment_group,task,target,feature_set,model,n_features,n_train,n_test,accuracy,balanced_accuracy,macro_f1
+AutoGluon diagnostic: S2 only / Context only,classification,NH3,Context only,WeightedEnsemble_L2,107,276,114,0.3070175438596491,0.3799781778505182,0.2506400409626216
+AutoGluon main: S2 + Context,classification,NH3,S2 + Context,WeightedEnsemble_L2,139,276,114,0.2807017543859649,0.3540111505861376,0.2329801485811715
+AutoGluon diagnostic: S2 only / Context only,classification,NH3,S2 only,WeightedEnsemble_L2,32,276,114,0.2807017543859649,0.3415166393889798,0.2276185850736603

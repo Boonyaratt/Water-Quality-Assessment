@@ -1,0 +1,9 @@
+﻿task,target,feature_set,model,transform,n_train_final
+regression,BOD,S2 + Context,CatBoost,raw,390
+regression,DO,S2 + Context,CatBoost,raw,390
+regression,FCB,S2 + Context,CatBoost,log1p,390
+regression,SS,S2 + Context,RandomForest,log1p,390
+regression,TCB,S2 + Context,CatBoost,log1p,390
+regression,Turbidity,S2 only,Stacking_RidgeMeta,log1p,390
+classification,NH3_3class,S2 + Context,ExtraTrees,label,390
+classification,NH3_binary,S2 + Context,ExtraTrees,label,390

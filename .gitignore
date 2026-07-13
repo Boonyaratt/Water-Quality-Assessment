@@ -1,0 +1,56 @@
+# Local environments
+.venv/
+venv/
+env/
+envs/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw and processed data are stored outside Git
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+!data/README.md
+
+# Experiment outputs and trained models
+experiments/*
+!experiments/.gitkeep
+!experiments/README.md
+models/
+outputs/
+
+# Large or generated files
+*.pkl
+*.joblib
+*.pickle
+*.pth
+*.pt
+*.h5
+*.onnx
+*.tif
+*.tiff
+*.nc
+*.zip
+*.7z
+*.rar
+
+# Datasets should not be committed by default
+*.parquet
+*.feather
+*.geojson
+
+# CSV/XLSX are ignored by default, except curated report tables
+*.csv
+*.xlsx
+!reports/tables/*.csv
+!reports/tables/*.xlsx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+

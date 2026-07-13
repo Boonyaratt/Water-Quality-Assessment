@@ -1,0 +1,22 @@
+name: water-quality-assessment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - openpyxl
+  - pip:
+      - xgboost
+      - catboost
+      - lightgbm
+      - autogluon.tabular
+      - geemap
+      - earthengine-api
+

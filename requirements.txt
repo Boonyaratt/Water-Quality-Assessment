@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+catboost
+lightgbm
+autogluon.tabular
+jupyter
+ipykernel
+geemap
+earthengine-api
+openpyxl
+
