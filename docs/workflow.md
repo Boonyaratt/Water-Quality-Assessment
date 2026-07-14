@@ -35,6 +35,9 @@ Included notebooks:
 - `notebooks/03_modeling_local/01_train_autogluon_local_relaxed.ipynb`
 - `notebooks/03_modeling_local/02_baseline_stack_station_temporal_final_model.ipynb`
 - `notebooks/03_modeling_local/03_autogluon_old_runs_result_report.ipynb`
+- `notebooks/03_modeling_local/05_random_split_diagnostic_baseline.ipynb`
+
+The random-split notebook is a diagnostic comparison with easier literature-style validation settings. Temporal and station-temporal validation remain the main research evidence.
 
 ## 4. Reporting
 
@@ -43,4 +46,3 @@ Curated reports are stored in:
 - `reports/tables/`
 - `reports/slides/`
 - `reports/figures/`
-

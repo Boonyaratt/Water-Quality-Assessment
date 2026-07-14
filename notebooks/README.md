@@ -12,6 +12,6 @@ Notebook order:
 3. `03_modeling_local/`
    - Train AutoGluon and manual baseline/stacking models.
    - Summarize old AutoGluon runs and model comparison results.
+   - Run random-split diagnostics for comparison with easier literature-style validation settings.
 
 Avoid storing generated CSV outputs or trained model folders in the notebook directories.
-
